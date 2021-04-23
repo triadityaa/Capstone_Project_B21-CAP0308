@@ -1,0 +1,42 @@
+
+    #Simple_Problem_Statement
+    
+    masalah : seseorang yang mengalami kekerasan (verbal, emotional, physical, sexual) 
+              takut untuk mengadukan tindakan tersebut ke orang lain atau pihak terkait, karena 
+              merasa terancam oleh pelaku kekerasan atau khawatir mendapat persepsi buruk terhadap pelaku kekerasan dari masyarakat.
+              
+    problem : Someone who had the violence (emotional, physical, verbal, sexual) tend to be afraid to speak out to other people such as other family, friends, 
+              closest neighbors or related organizations, because they are feeling threatened by the person who did it 
+              or moreover they will get bad perspective from others people.
+              
+    
+    #Simple_Research_Questions
+	
+	1. 	Bagaimana sebuah sistem chatbot dapat membantu mengambil laporan dari seseorang yang mengalami kekerasan secara langsung ke pihak terkait
+	    dengan efektif, rahasia, dan cepat?
+		
+	1. 	How chatbot can handle reports from people who had a violence directly to the related organizations with effective, securely and reliable fast
+		
+	
+	#Plan_of_Implementation
+
+	cloud : deploying application to manager deployment in google cloud platform
+
+
+	#Datasets_that_have_been_explored
+	
+	https://kekerasan.kemenpppa.go.id/ringkasan
+	
+	
+	#Papers/Journals_that_have_been_explored
+	
+	1. Rancang Bangun Aplikasi Pelaporan Kekerasan Terhadap Perempuan dan Anak pada DPPPA Provinsi Kalimantan Barat
+	2. Dampak Kekerasan pada Kepribadian Anak
+	3. IDENTIFIKASI KEJADIAN KEKERASAN PADA ANAK DI KOTA MALANG
+	
+	
+
+	
+	
+
+		
