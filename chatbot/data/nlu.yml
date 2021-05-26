@@ -6,87 +6,73 @@ nlu:
     - hai
     - pagi
     - siang
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-
-- intent: goodbye
-  examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - halo
+    - selamat pagi
+    - halo mbak
 
 - intent: affirm
   examples: |
-    - yes
     - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - ya
+    - yes
+    - benar
+    - betul
+    - iya
+    - yoi
 
 - intent: deny
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - gk
+    - tidak
+    - gak
+    - bukan
 
-- intent: mood_great
+- intent: make_report
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - aku mau bikin laporan
+    - aku mau buat laporan
+    - saya mau melapor
+    - saya ingin membuat laporan
+    - saya akan melapor
+    - aku mau lapor
 
-- intent: mood_unhappy
+- intent: inform
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - pelakunya [nenek saya](pelaku)
+    - [saya](korban) adalah korban
+    - [kekerasan seksual](jenis) sepertinya
+    - kejadiannya [bulan lalu](waktu) di [rumahnya](lokasi)
+    - [ayah saya](pelaku) memukul [ibu saya](korban) kemarin(waktu)
+    
+- intent: stop
+  examples: |
+    - tidak jadi deh
+    - saya tidak jadi melapor
+    - batal saja
+
+- intent: faq/confidentiality
+  examples: |
+    - apakah data saya dijamin aman?
+    - apakah saya akan aman jika melapor?
+    - saya takut data saya bocor
+
+- intent: thankyou
+  examples: |
+    - terima kasih
+    - makasih
+    - tengs
+    - tengkyu
+    - thank you
+    - thanks
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - apakah kamu bot?
+    - apakah kamu manusia?
+    - apa saya berbicara dengan bot?
+
+- intent: out_of_scope
+  examples: |
+    - tadi pagi hujan
+    - saya ingin membeli bebek
+    - 1 + 1 berapa?
