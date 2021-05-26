@@ -2,12 +2,23 @@ version: "2.0"
 
 intents:
   - greet
-  - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
+  - make_report
+  - inform
+  - stop
+  - faq
+  - thankyou
   - bot_challenge
+  - out_of_scope
+
+entities:
+  - pelaku
+  - korban
+  - jenis
+  - waktu
+  - lokasi
+  - kronologi
 
 responses:
   utter_greet:
