@@ -20,25 +20,98 @@ entities:
   - lokasi
   - kronologi
 
+slots:
+  pelaku:
+    type: text
+    influence_conversation: false
+  korban:
+    type: text
+    influence_conversation: false
+  jenis:
+    type: text
+    influence_conversation: false
+  waktu:
+    type: text
+    influence_conversation: false
+  lokasi:
+    type: text
+    influence_conversation: false
+  kronologi:
+    type: text
+    influence_conversation: false
+  
+forms:
+  report_form:
+    required_slots:
+      pelaku:
+        - type: from_entity
+          entity: pelaku
+          intent: inform
+      korban:
+        - type: from_entity
+          entity: korban
+          intent: inform
+      jenis:
+        - type: from_entity
+          entity: jenis
+          intent: inform
+      waktu:
+        - type: from_entity
+          entity: waktu
+          intent: inform
+      lokasi:
+        - type: from_entity
+          entity: lokasi
+          intent: inform
+      kronologi:
+        - type: from_text
+          intent: inform
+
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
+  - text: "Halo! Apakah kamu ingin melapor?"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Aku adalah bot dari Rasa."
+
+  utter_out_of_scope:
+  - text: "Maaf, aku tidak bisa memproses permintaanmu."
+
+  utter_please_rephrase:
+  - text: "Maaf, aku tidak mengerti. Bisakah kamu mengatakannya lagi?"
+
+  utter_faq/confidentiality:
+  - text: "Informasi yang kamu berikan terjamin keamanannya."
+
+  utter_ask_pelaku:
+  - text: "Siapa pelakunya?"
+
+  utter_ask_korban:
+  - text: "Siapa korbannya?"
+
+  utter_ask_jenis:
+  - text: "Jenis kekerasan apa yang terjadi?"
+
+  utter_ask_waktu:
+  - text: "Kapan waktu kejadiannya?"
+
+  utter_ask_lokasi:
+  - text: "Dimana kejadiannya terjadi?"
+
+  utter_ask_kronologi:
+  - text: "Bagaimana kronologi kejadiannya?"
+
+  utter_submit:
+  - text: "Terima kasih karena telah membuat laporan."
+
+  utter_slots_values:
+  - text: "Berikut laporan yang kamu berikan:\n
+            - Korban: {korban}\n
+            - Pelaku: {pelaku}\n
+            - Jenis: {jenis}\n
+            - Waktu: {waktu}\n
+            - Lokasi: {lokasi}\n
+            - Kronologi: {kronologi}"
 
 session_config:
   session_expiration_time: 60
