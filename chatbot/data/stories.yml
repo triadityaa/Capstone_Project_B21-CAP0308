@@ -13,9 +13,17 @@ stories:
   - action: utter_submit
   - action: utter_slots_values
 
+- story: form happy path 2
+  steps:
+  - intent: make_report
+  - action: report_form
+  - active_loop: report_form
+  - active_loop: null
+  - action: utter_submit
+  - action: utter_slots_values
+
 - story: no survey
   steps:
   - intent: greet
   - action: utter_greet
   - intent: deny
-  - action: utter_goodbye
