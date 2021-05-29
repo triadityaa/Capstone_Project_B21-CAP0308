@@ -4,21 +4,169 @@ nlu:
 - intent: greet
   examples: |
     - hai
-    - pagi
-    - siang
     - halo
+    - punten
+    - puntennn
+    - horasss
+    - horas
+    - haii
+    - haloo
+    - haiii
+    - halooo
     - selamat pagi
+    - selamat pagi pak
+    - selamat pagi mbak
+    - selamat pagi mas
+    - selamat siang pak
+    - selamat siang mbak
+    - selamat siang mas
+    - siang pak
+    - siang mbak
+    - siang mas
+    - malam pak
+    - malam bu
+    - malam mas
+    - malam mbak
+    - pagi pak
+    - pagi mbak
+    - pagi mas
+    - selamat pagi bu
+    - selamat siang bu
+    - selamat malam mas
+    - selamat malam bu
+    - selamat malam bot
+    - selamat malam mbak
+    - selamat malam pak
+    - bu
+    - pak
+    - bot
+    - mbak
+    - mas
+    - tolong saya
+    - tolong sayaa
+    - tolongg sayaa
+    - tolonggg sayaaa
+    - tlg saya
+    - saya butuh bantuan
+    - butuh bantuan
+    - tolong
+    - tolonggg
+    - p
+    - tolong jawab saya
+    - tolong bantu saya
+    - pgi
+    - selamat siang
+    - selamat malam
+    - pagi
+    - pagii
+    - pagiii
+    - siangg
+    - sianggg
+    - malamm
+    - malammm
+    - siang
+    - malam
+    - halo bot
     - halo mbak
-
+    - halo mas
+    - haloo bot
+    - haloo mbak
+    - haloo mas
+    - bottt
+    - bot
+    - bott
+  
 - intent: affirm
   examples: |
     - y
     - ya
     - yes
+    - yess
+    - yezz
+    - yesss
+    - yupz
+    - yupzz
     - benar
+    - benarr
+    - betull
     - betul
     - iya
     - yoi
+    - yoii
+    - yaaaa
+    - yaa
+    - iyaaaa
+    - iyaa
+    - iyaaa
+    - yyy
+    - yy
+    - oke
+    - okee
+    - okay
+    - okayyy
+    - okayy
+    - benar sekali
+    - oki
+    - okii
+    - yup
+    - sepertinya begitu
+    - benar begitu
+    - kamu benar
+    - iya emang
+    - iya sih
+    - ya sih
+    - boleh
+    - boleh juga
+    - bolehh
+    - bolehhh
+    - boleh jugaa
+    - ok
+    - k
+    - please iya
+    - yess
+    - yez
+    - yoii
+    - yoiii
+    - okew
+    - okeww
+    - okewww
+    - setuju
+    - setujuu
+    - please 
+    - pleasee
+    - iya dong
+    - iyaa dong
+    - iya dongg
+    - betul
+    - y dong
+    - oke dong
+    - okela
+    - okelaa
+    - oke sih
+    - boleh sih
+    - okelah
+    - iyalah
+    - yalah
+    - tidak masalah
+    - bukan masalah
+    - boleh saja
+    - bisa bisa
+    - bisa
+    - bisaa
+    - tentu saja
+    - tentu saja iya
+    - tentu saja oke
+    - tentu saja y
+    - okede
+    - okedee
+    - oke deh
+    - okay dehh
+    - okedehh
+    - okayy deh
+    - okedeh
+    - emang
+    - emanggg
+    - ya emang
 
 - intent: deny
   examples: |
@@ -26,11 +174,122 @@ nlu:
     - tidak
     - gak
     - bukan
-
+    - belum bisa
+    - ga mau
+    - g
+    - tidak mau
+    - tdk
+    - tdk mau
+    - g mau
+    - gk mau
+    - gk boleh
+    - blm boleh
+    - belum bisa
+    - engga
+    - enggaaa
+    - enggaaaa
+    - gamau
+    - gamauu
+    - gaakan
+    - gabisa
+    - gaboleh
+    - ga dibolehin
+    - belum
+    - blm
+    - ga
+    - enggak
+    - gak
+    - sepertinya tidak
+    - tidak
+    - tidak boleh
+    - tidak bolehh
+    - jangan 
+    - jgn
+    - ga bisa
+    - ga boleh
+    - ga mau
+    - jgn ya
+    - mungkin nanti
+    - blm sekarang
+    - not now
+    - no
+    - tida
+    - tidaa
+    - engga sih
+    - enggaa sih
+    - enggaaa sih
+    - engga sihh
+    - tidakk
+    - jangann
+    - jangannn
+    - jgnnn
+    - jgnn
+    - noo
+    - nooo
+    - gamau
+    - gamauu
+    - gamaw
+    - engga deh
+    - blmm
+    - blmmm
+    - jgnla
+    - janganla
+    - janganlah
+    - janganlaaa
+    - janganlahh
+    - engga ya
+    - enggak ya
+    
 - intent: make_report
   examples: |
     - aku mau bikin laporan
+    - mau bikin laporan
     - aku mau buat laporan
+    - mau buat laporan
+    - aku mau ngelapor
+    - mau ngelapor
+    - ingin lapor
+    - aku ingin lapor
+    - lapor
+    - ngelapor
+    - laporan
+    - melaporkan
+    - memberitahu
+    - ngasih tau
+    - aku ada laporan
+    - aku sangat ingin lapor
+    - aku butuh melaporkan
+    - butuh melaporkan
+    - aku mau melaporkan
+    - mau melaporkan
+    - aku akan melapor
+    - akan melapor
+    - saya mau bikin laporan
+    - saya mau buat laporan
+    - saya mau ngelapor
+    - saya ingin lapor
+    - saya ada laporan
+    - saya mau lapor
+    - saya mau memberitahu kasus
+    - aku mau memberitahu kasus
+    - aku ngasih tau kasus
+    - saya ngasih tau kasus
+    - saya mau bikin laporan deh
+    - catat laporan
+    - saya mau lapor bot
+    - saya ingin cerita
+    - aku mau cerita
+    - aku ingin cerita
+    - saya ingin sekali ceritain ini
+    - cerita
+    - ceritain
+    - saya harus laporkan
+    - laporkan 
+    - saya ingin mengajukan laporan
+    - mengajukan laporan
+    - aku ingin mengajukan laporan
+    - aku mau melaporkan ke pihak berwajib
+    - buat laporan saya
     - saya mau melapor
     - saya ingin membuat laporan
     - saya akan melapor
