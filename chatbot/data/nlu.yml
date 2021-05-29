@@ -38,11 +38,14 @@ nlu:
 
 - intent: inform
   examples: |
-    - pelakunya [nenek saya](pelaku)
-    - [saya](korban) adalah korban
-    - [kekerasan seksual](jenis) sepertinya
-    - kejadiannya [bulan lalu](waktu) di [rumahnya](lokasi)
-    - [ayah saya](pelaku) memukul [ibu saya](korban) kemarin(waktu)
+    - pelakunya nenek saya
+    - kekerasan seksual sepertinya
+    - kejadiannya bulan lalu di rumahnya
+    - ayah saya memukul ibu saya kemarin
+    - di jalan wahid hasyim, bogor
+    - kemarin malam waktu sih seingat saya
+    - teman saya, Sara
+    - bapak RT
     
 - intent: stop
   examples: |

@@ -12,13 +12,9 @@ intents:
   - bot_challenge
   - out_of_scope
 
-entities:
-  - pelaku
-  - korban
-  - jenis
-  - waktu
-  - lokasi
-  - kronologi
+# entities:
+#   - waktu
+#   - lokasi
 
 slots:
   pelaku:
@@ -44,28 +40,17 @@ forms:
   report_form:
     required_slots:
       pelaku:
-        - type: from_entity
-          entity: pelaku
-          intent: inform
+        - type: from_text
       korban:
-        - type: from_entity
-          entity: korban
-          intent: inform
+        - type: from_text
       jenis:
-        - type: from_entity
-          entity: jenis
-          intent: inform
+        - type: from_text
       waktu:
-        - type: from_entity
-          entity: waktu
-          intent: inform
+        - type: from_text
       lokasi:
-        - type: from_entity
-          entity: lokasi
-          intent: inform
+        - type: from_text
       kronologi:
         - type: from_text
-          intent: inform
 
 responses:
   utter_greet:
@@ -78,6 +63,9 @@ responses:
   - text: "Maaf, aku tidak bisa memproses permintaanmu."
 
   utter_please_rephrase:
+  - text: "Maaf, aku tidak mengerti. Bisakah kamu mengatakannya lagi?"
+
+  utter_default:
   - text: "Maaf, aku tidak mengerti. Bisakah kamu mengatakannya lagi?"
 
   utter_faq/confidentiality:
