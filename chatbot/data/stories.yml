@@ -7,6 +7,7 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
+  - action: utter_inform_form
   - action: report_form
   - active_loop: report_form
   - active_loop: null
@@ -16,14 +17,27 @@ stories:
 - story: form happy path 2
   steps:
   - intent: make_report
+  - action: utter_inform_form
   - action: report_form
   - active_loop: report_form
   - active_loop: null
   - action: utter_submit
   - action: utter_slots_values
 
-- story: no survey
+- story: no form
   steps:
   - intent: greet
   - action: utter_greet
   - intent: deny
+
+- story: form stop
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_inform_form
+  - action: report_form
+  - active_loop: report_form
+  - intent: stop
+  - action: action_deactivate_loop
+  - active_loop: null

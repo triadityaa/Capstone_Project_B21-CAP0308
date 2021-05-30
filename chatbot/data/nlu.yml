@@ -303,20 +303,30 @@ nlu:
     - ayah saya memukul ibu saya kemarin
     - di jalan wahid hasyim, bogor
     - kemarin malam waktu sih seingat saya
-    - teman saya, Sara
-    - bapak RT
+    - teman saya, sara
+    - bapak rt
     
 - intent: stop
   examples: |
     - tidak jadi deh
     - saya tidak jadi melapor
     - batal saja
+    - aku tidak jadi lapor
+    - gak jadi deh
+    - batalkan saja laporan ini
 
 - intent: faq/confidentiality
   examples: |
     - apakah data saya dijamin aman?
     - apakah saya akan aman jika melapor?
     - saya takut data saya bocor
+
+- intent: faq/process
+  examples: |
+    - bagaimana laporan akan diproses?
+    - bagaimana tindak lanjut dari laporan ini?
+    - gimana kekerasan ditindaklanjuti?
+    - laporannya nanti diapakan?
 
 - intent: thankyou
   examples: |
@@ -332,9 +342,3 @@ nlu:
     - apakah kamu bot?
     - apakah kamu manusia?
     - apa saya berbicara dengan bot?
-
-- intent: out_of_scope
-  examples: |
-    - tadi pagi hujan
-    - saya ingin membeli bebek
-    - 1 + 1 berapa?
