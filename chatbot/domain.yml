@@ -5,15 +5,10 @@ intents:
   - affirm
   - deny
   - make_report
-  - inform
   - stop
   - faq
   - thankyou
   - bot_challenge
-
-# entities:
-#   - waktu
-#   - lokasi
 
 slots:
   pelaku:
@@ -40,22 +35,22 @@ forms:
     required_slots:
       pelaku:
         - type: from_text
-          not_intent: faq
+          not_intent: [faq, stop]
       korban:
         - type: from_text
-          not_intent: faq
+          not_intent: [faq, stop]
       jenis:
         - type: from_text
-          not_intent: faq
+          not_intent: [faq, stop]
       waktu:
         - type: from_text
-          not_intent: faq
+          not_intent: [faq, stop]
       lokasi:
         - type: from_text
-          not_intent: faq
+          not_intent: [faq, stop]
       kronologi:
         - type: from_text
-          not_intent: faq
+          not_intent: [faq, stop]
 
 responses:
   utter_greet:

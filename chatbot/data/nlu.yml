@@ -294,17 +294,6 @@ nlu:
     - saya ingin membuat laporan
     - saya akan melapor
     - aku mau lapor
-
-- intent: inform
-  examples: |
-    - pelakunya nenek saya
-    - kekerasan seksual sepertinya
-    - kejadiannya bulan lalu di rumahnya
-    - ayah saya memukul ibu saya kemarin
-    - di jalan wahid hasyim, bogor
-    - kemarin malam waktu sih seingat saya
-    - teman saya, sara
-    - bapak rt
     
 - intent: stop
   examples: |
@@ -314,12 +303,26 @@ nlu:
     - aku tidak jadi lapor
     - gak jadi deh
     - batalkan saja laporan ini
+    - tidak jadi
+    - gak jadi
+    - batal
+    - batal lapor
+    - tidak jadi lapor
+
 
 - intent: faq/confidentiality
   examples: |
     - apakah data saya dijamin aman?
     - apakah saya akan aman jika melapor?
     - saya takut data saya bocor
+    - apa data saya terjamin aman?
+    - data saya akan aman kan?
+    - ini tidak mungkin bocor kan?
+    - saya takut data saya tersebar
+    - aku takut datanya nyebar
+    - keamanan data terjamin kan?
+    - data saya dijamin aman kan?
+    - datanya ga mungkin bocor kan?
 
 - intent: faq/process
   examples: |
@@ -336,9 +339,11 @@ nlu:
     - tengkyu
     - thank you
     - thanks
+    - terima kasih banyak
 
 - intent: bot_challenge
   examples: |
     - apakah kamu bot?
     - apakah kamu manusia?
     - apa saya berbicara dengan bot?
+    - ini siapa ya?
