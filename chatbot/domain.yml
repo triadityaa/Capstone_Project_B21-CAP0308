@@ -2,32 +2,110 @@ version: "2.0"
 
 intents:
   - greet
-  - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
+  - make_report
+  - stop
+  - faq
+  - thankyou
   - bot_challenge
+
+slots:
+  pelaku:
+    type: text
+    influence_conversation: false
+  korban:
+    type: text
+    influence_conversation: false
+  jenis:
+    type: text
+    influence_conversation: false
+  waktu:
+    type: text
+    influence_conversation: false
+  lokasi:
+    type: text
+    influence_conversation: false
+  kronologi:
+    type: text
+    influence_conversation: false
+  
+forms:
+  report_form:
+    required_slots:
+      pelaku:
+        - type: from_text
+          not_intent: [faq, stop]
+      korban:
+        - type: from_text
+          not_intent: [faq, stop]
+      jenis:
+        - type: from_text
+          not_intent: [faq, stop]
+      waktu:
+        - type: from_text
+          not_intent: [faq, stop]
+      lokasi:
+        - type: from_text
+          not_intent: [faq, stop]
+      kronologi:
+        - type: from_text
+          not_intent: [faq, stop]
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
+  - text: "Halo! Apakah kamu ingin melapor?"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Aku adalah bot dari Rasa."
+
+  utter_out_of_scope:
+  - text: "Maaf, aku tidak bisa memproses permintaanmu."
+
+  utter_please_rephrase:
+  - text: "Maaf, aku tidak mengerti. Bisakah kamu mengatakannya lagi?"
+
+  utter_default:
+  - text: "Maaf, aku tidak mengerti. Bisakah kamu mengatakannya lagi?"
+
+  utter_faq/confidentiality:
+  - text: "Informasi yang kamu berikan terjamin keamanannya."
+
+  utter_faq/process:
+  - text: "Laporan ini akan dikirimkan ke KPPA untuk proses selanjutnya."
+
+  utter_inform_form:
+  - text: "Aku akan menanyakan beberapa hal terkait kejadian tersebut."
+
+  utter_ask_pelaku:
+  - text: "Siapa pelakunya?"
+
+  utter_ask_korban:
+  - text: "Siapa korbannya?"
+
+  utter_ask_jenis:
+  - text: "Jenis kekerasan apa yang terjadi?"
+
+  utter_ask_waktu:
+  - text: "Kapan waktu kejadiannya?"
+
+  utter_ask_lokasi:
+  - text: "Dimana kejadiannya terjadi?"
+
+  utter_ask_kronologi:
+  - text: "Bagaimana kronologi kejadiannya?"
+
+  utter_submit:
+  - text: "Terima kasih karena telah membuat laporan."
+
+  utter_slots_values:
+  - text: "Berikut laporan yang kamu berikan:\n
+            - Korban: {korban}\n
+            - Pelaku: {pelaku}\n
+            - Jenis: {jenis}\n
+            - Waktu: {waktu}\n
+            - Lokasi: {lokasi}\n
+            - Kronologi: {kronologi}"
 
 session_config:
   session_expiration_time: 60

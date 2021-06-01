@@ -2,29 +2,42 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: form happy path
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
   - intent: affirm
-  - action: utter_happy
+  - action: utter_inform_form
+  - action: report_form
+  - active_loop: report_form
+  - active_loop: null
+  - action: utter_submit
+  - action: utter_slots_values
 
-- story: sad path 2
+- story: form happy path 2
+  steps:
+  - intent: make_report
+  - action: utter_inform_form
+  - action: report_form
+  - active_loop: report_form
+  - active_loop: null
+  - action: utter_submit
+  - action: utter_slots_values
+
+- story: no form
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
   - intent: deny
-  - action: utter_goodbye
+
+- story: form stop
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_inform_form
+  - action: report_form
+  - active_loop: report_form
+  - intent: stop
+  - action: action_deactivate_loop
+  - active_loop: null
