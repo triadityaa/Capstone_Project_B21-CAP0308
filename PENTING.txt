@@ -7,6 +7,11 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 sudo apt-get install python3.6
 
+python3 -m venv ./venv
+source ./venv/bin/activate
+
+/home/c1211556/.ngrok2/ngrok.yml
+
 sudo apt-get install unzip
 unzip /path/to/ngrok.zip
 
@@ -18,22 +23,13 @@ sudo tar -xzf (nama file.tar.gz)
 sudo mv Postman /opt/
 sudo gedit ~/.local/share/applications/Postman.desktop
 
-{
-[Desktop Entry]
-Encoding=UTF-8
-Name=Postman
-Exec=/opt/Postman/app/Postman %U
-Icon=/opt/Postman/app/resources/app/assets/icon.png
-Terminal=false
-Type=Application
-Categories=Development;
-}
+
+gcloud beta compute ssh --zone "asia-southeast2-a" "instance-rasa"  --project "b21-cap0308"
 
 gsutil cp gs://BUCKET_NAME/OBJECT_NAME SAVE_TO_LOCATION
 
 
 
 
-sudo apt install python-pip
 
 
