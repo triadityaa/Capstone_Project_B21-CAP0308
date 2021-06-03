@@ -13,7 +13,21 @@ unzip /path/to/ngrok.zip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 
+sudo snap install postman
 sudo tar -xzf (nama file.tar.gz)
+sudo mv Postman /opt/
+sudo gedit ~/.local/share/applications/Postman.desktop
+
+{
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=/opt/Postman/app/Postman %U
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
+}
 
 gsutil cp gs://BUCKET_NAME/OBJECT_NAME SAVE_TO_LOCATION
 
