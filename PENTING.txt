@@ -1,0 +1,35 @@
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 2
+
+sudo update-alternatives --config python
+
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.6
+
+python3 -m venv ./venv
+source ./venv/bin/activate
+
+/home/c1211556/.ngrok2/ngrok.yml
+
+sudo apt-get install unzip
+unzip /path/to/ngrok.zip
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+
+sudo snap install postman
+sudo tar -xzf (nama file.tar.gz)
+sudo mv Postman /opt/
+sudo gedit ~/.local/share/applications/Postman.desktop
+
+
+gcloud beta compute ssh --zone "asia-southeast2-a" "instance-rasa"  --project "b21-cap0308"
+
+gsutil cp gs://BUCKET_NAME/OBJECT_NAME SAVE_TO_LOCATION
+
+
+
+
+
+
