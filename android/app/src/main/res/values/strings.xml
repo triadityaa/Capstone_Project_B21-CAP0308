@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SIPAPA</string>
+    <string name="event">Event/ Berita</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="sample_message">Sample Message</string>
+    <string name="detail">Detail</string>
+    <string name="provinsi">Provinsi</string>
+    <string name="total_kasus">Total Kasus</string>
+    <string name="korban_perempuan">Korban Perempuan</string>
+    <string name="korban_anak_anak">Korban Anak-Anak</string>
+    <string name="set_bahasa">Bahasa</string>
+    <string name="ganti_bahasa">Ganti Bahasa</string>
+    <string name="umum">umum</string>
+    <string name="settings">Pengaturan</string>
+</resources>

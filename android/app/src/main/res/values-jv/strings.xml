@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIPAPA</string>
+    <string name="event">warta</string>
+    <string name="title_activity_history">Sejarah Laporan</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="sample_message">Pesen Conto</string>
+    <string name="detail">Detil</string>
+    <string name="provinsi">Provinsi</string>
+    <string name="total_kasus">kasus total</string>
+    <string name="korban_perempuan">Korban Wadon</string>
+    <string name="korban_anak_anak">Korban Anak</string>
+    <string name="set_bahasa">Basa</string>
+    <string name="ganti_bahasa">Ganti Basa</string>
+    <string name="umum">umum</string>
+    <string name="settings">Setélan</string>
+</resources>
