@@ -1,0 +1,214 @@
+{
+  "provinsi": [
+    {
+      "name":"Semua",
+      "total": 5348,
+      "perempuan": 4622,
+      "anak": 3426
+    },
+    {
+      "name": "Aceh",
+      "total": 230,
+      "perempuan": 191,
+      "anak": 145
+    },
+    {
+      "name":"Bali",
+      "total": 38,
+      "perempuan": 30,
+      "anak": 16
+    },
+    {
+      "name": "Bangka Belitung",
+      "total": 54,
+      "perempuan": 46,
+      "anak": 30
+    },
+    {
+      "name": "Banten",
+      "total": 182,
+      "perempuan": 160,
+      "anak": 119
+    },
+    {
+      "name": "Bengkulu",
+      "total": 25,
+      "perempuan": 25,
+      "anak": 22
+    },
+    {
+      "name": "DIY Yogyakarta",
+      "total": 217,
+      "perempuan": 191,
+      "anak": 94
+    },
+    {
+      "name": "DKI Jakarta",
+      "total": 57,
+      "perempuan": 40,
+      "anak": 49
+    },
+    {
+      "name": "Gorontalo",
+      "total": 102,
+      "perempuan": 78,
+      "anak": 65
+    },
+    {
+      "name": "Jambi",
+      "total": 117,
+      "perempuan": 92,
+      "anak": 73
+    },
+    {
+      "name": "Jawa Barat",
+      "total": 427,
+      "perempuan": 372,
+      "anak": 311
+    },
+    {
+      "name": "Jawa Tengah",
+      "total": 679,
+      "perempuan": 629,
+      "anak": 390
+    },
+    {
+      "name": "Jawa Timur",
+      "total": 476,
+      "wanita": 406,
+      "anak": 331
+    },
+    {
+      "name": "Kalimantan Barat",
+      "total": 117,
+      "perempuan": 109,
+      "anak": 83
+    },
+    {
+      "name": "Kalimantan Selatan",
+      "total": 78,
+      "perempuan": 66,
+      "anak": 55
+    },
+    {
+      "name": "Kalimantan Tengah",
+      "total": 41,
+      "perempuan": 35,
+      "anak": 38
+    },
+    {
+      "name": "Kalimantan Timur",
+      "total": 170,
+      "perempuan": 151,
+      "anak": 114
+    },
+    {
+      "name": "Kalimantan Utara",
+      "total": 54,
+      "perempuan": 48,
+      "anak": 32
+    },
+    {
+      "name": "Kepulauan Riau",
+      "total": 119,
+      "perempuan": 119,
+      "anak": 91
+    },
+    {
+      "name": "Lampung",
+      "total": 177,
+      "perempuan": 168,
+      "anak": 154
+    },
+    {
+      "name": "Maluku",
+      "total": 82,
+      "perempuan": 67,
+      "anak": 53
+    },
+    {
+      "name": "Maluku Utara",
+      "total": 46,
+      "perempuan": 43,
+      "anak": 27
+    },
+    {
+      "name": "NTB",
+      "total": 206,
+      "perempuan": 181,
+      "anak": 112
+    },
+    {
+      "name": "NTT",
+      "total": 171,
+      "perempuan": 151,
+      "anak": 83
+    },
+    {
+      "name": "Papua",
+      "total": 10,
+      "perempuan": 9,
+      "anak": 4
+    },
+    {
+      "name": "Papua Barat",
+      "total": 35,
+      "perempuan": 24,
+      "anak": 13
+    },
+    {
+      "name": "Riau",
+      "total": 106,
+      "perempuan": 90,
+      "anak": 101
+    },
+    {
+      "name": "Sulawesi Barat",
+      "total": 2,
+      "perempuan": 2,
+      "anak": 1
+    },
+    {
+      "name": "Sulawesi Selatan",
+      "total": 562,
+      "perempuan": 448,
+      "anak": 265
+    },
+    {
+      "name": "Sulawesi Tengah",
+      "total": 133,
+      "perempuan": 118,
+      "anak": 63
+    },
+    {
+      "name": "Sulawesi Tenggara",
+      "total": 98,
+      "perempuan": 84,
+      "anak": 72
+    },
+    {
+      "name": "Sulawesi Utara",
+      "total": 106,
+      "perempuan": 97,
+      "anak": 76
+    },
+    {
+      "name": "Sumatera Barat",
+      "total": 95,
+      "perempuan": 66,
+      "anak": 80
+    },
+    {
+      "name": "Sumatera Selatan",
+      "total": 77,
+      "perempuan": 61,
+      "anak": 46
+    },
+    {
+      "name": "Sumatera Utara",
+      "total": 259,
+      "perempuan": 225,
+      "anak": 218
+    }
+  ]
+}
